@@ -1,0 +1,114 @@
+.nft-section {
+    background: #210036;
+    min-height: 100vh;
+    color: #fff;
+}
+
+.nft-item-box {
+    position: relative;
+    object-fit: cover;
+    border: 5px solid transparent;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.nft-item-box img {
+    height: 210px;
+    width: 100% !important;
+    object-fit: cover;
+    object-position: top left;
+}
+
+/* .nft-item-box:hover {
+    border: 5px solid #BE8F14;
+    border-radius: 10px;
+} */
+
+.nft-item-box::before,
+.nft-item-box::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    background-color: transparent;
+}
+
+.nft-item-box:hover::after {
+    content: '';
+    width: 43px;
+    height: 43px;
+    bottom: -3%;
+    right: -3%;
+    border-bottom: 4px solid #BE8F14;
+    border-right: 4px solid #BE8F14;
+    border-bottom-right-radius: 10px;
+}
+
+.nft-item-box:hover::before {
+    content: '';
+    width: 43px;
+    height: 43px;
+    top: -3%;
+    left: -3%;
+    border-top: 4px solid #BE8F14;
+    border-left: 4px solid #BE8F14;
+    border-top-left-radius: 10px;
+}
+
+.nft-character-display {
+    background: url(../../images/character-display-bg.png),#210036;
+    background-size: cover;
+    background-position: top center;
+}
+
+.character-box .character {
+    height: 400px;
+    object-fit: contain;
+    width: 100% !important;
+}
+
+.character-text h3 {
+    font-family: 'Spicy Rice', cursive;
+    font-size: 32px;
+}
+
+.nft-intro {
+    width: 55%;
+    margin: 0 auto;
+}
+
+.character-text-box {
+    height: 400px;
+}
+
+.bounce {
+    animation: bounce 2s ease infinite;
+  }
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+    40% {transform: translateY(-30px);}
+    60% {transform: translateY(-15px);}
+  }
+
+  @media(max-width: 426px) {
+    /* .character-box .character {
+        height: 300px;
+        object-fit: cover;
+        width: 100% !important;
+        object-position: 30%;
+    } */
+
+    .nft-item-box img {
+        min-height: 230px;
+        object-fit: cover;
+    }
+
+    .character-text-box {
+        height: 200px;
+    }
+
+    .nft-intro {
+        width: 90%;
+        margin: 0 auto;
+    }
+  }

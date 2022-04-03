@@ -1,0 +1,50 @@
+.hero-section {
+    background: url(../images/hero-bg.png),#210036;
+    min-height: 70vh;
+    background-size: cover;
+    background-position: top center;
+    padding-top: 100px;
+}
+
+.welcome-section {
+    margin-top: 200px;
+    color: #fff;
+}
+
+.welcome-section h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.welcome-section h5 {
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.welcome-section button {
+    font-weight: 700;
+}
+
+.welcome-section a {
+    font-weight: 700;
+    text-decoration: none;
+}
+
+@media(max-width: 760px) {
+    .welcome-section {
+        margin-top: -20px;
+        text-align: center;
+    }
+
+    .welcome-section h1 {
+        font-size: 28px;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .welcome-section h5 {
+        font-size: 14px;
+        width: 80%;
+        margin: 0 auto;
+    }
+}

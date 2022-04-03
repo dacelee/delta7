@@ -1,0 +1,19 @@
+.game-play-section {
+    background: url(../images/fight-bg.png),#210036;
+    min-height: 70vh;
+    background-size: cover;
+    background-position: top center;
+    color: #fff;
+}
+
+.play-friends {
+    width: 60%;
+    margin: 0 auto;
+}
+
+@media (max-width: 426px) {
+    .play-friends {
+        width: 90%;
+        margin: 0 auto;
+    }
+}

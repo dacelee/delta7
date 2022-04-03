@@ -1,0 +1,32 @@
+.counter-section {
+    background: #210036;
+    /* padding-bottom: 50px; */
+    color: #fff;
+}
+
+.partner-card {
+    height: 200px;
+    background: #c4c4c4;
+    color: #fff;
+}
+
+.count-box-upper {
+    background: #27073B;
+}
+
+.count-box h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #BE8F14 !important;
+}
+
+.count-box p {
+    font-weight: 500;
+}
+
+.partner-title {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+

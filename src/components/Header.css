@@ -1,0 +1,30 @@
+.main-navbar {
+    background: #210036 !important;
+}
+
+.main-navbar .btn-outline.warning {
+    color: #ffc107 !important;
+    border-color: #ffc107;
+    font-weight: 700 !important;
+}
+
+.main-navbar .nav-link {
+    color: #fff !important;
+    font-size: 18px !important;
+    margin-right: 20px;
+}
+
+.main-navbar .main-btn {
+    color: #2D294E !important;
+    font-weight: 700 !important;
+}
+
+.navbar-toggler:focus {
+    border: none !important;
+    color: transparent !important;
+    background: transparent !important;
+}
+
+.nav-item {
+    margin-right: 10px;
+}

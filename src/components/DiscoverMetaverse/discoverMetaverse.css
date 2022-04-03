@@ -1,0 +1,31 @@
+.discoverMetaverse-section {
+    background: url(../../images/fight-bg.png),#210036;
+    background-size: cover;
+    background-position: top center;
+    color: #fff;
+}
+
+.discoverMetaverse-section li .bold-text {
+    font-weight: 700;
+}
+
+.side-image img {
+    height: 640px;
+}
+
+@media (max-width: 780px) {
+    .side-image img {
+        height: 500px;
+    }
+}
+
+@media (max-width: 426px) {
+    .row .side-text {
+        order: 2
+    }
+
+    .row .side-image img {
+        height: 430px;
+        object-fit: cover;
+    }
+}

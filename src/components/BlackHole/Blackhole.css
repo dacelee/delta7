@@ -1,0 +1,10 @@
+.blackhole-section {
+    background: #210036; 
+}
+
+.black-hole-holder {
+    background: url(../../images/parabg.png);
+    background-size: cover;
+    color: #fff;
+    padding-top: 100px;
+}
